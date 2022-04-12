@@ -2,14 +2,6 @@
 
 
 def bool_to_word(boolean):
-    return 'No' if boolean == False else 'Yes'
-
-
-print(bool_to_word(1))
-print(bool_to_word(0))
-
-
-def bool_to_word(boolean):
     return 'Yes' if boolean else 'No'
 
 
