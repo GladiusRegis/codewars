@@ -13,3 +13,10 @@ def counting_sheep(array_of_sheep):
 
 
 print(counting_sheep(sheep))
+
+
+def counting_sheep2(array_of_sheep):
+    return array_of_sheep.count(True)
+
+
+print(counting_sheep2(sheep))
